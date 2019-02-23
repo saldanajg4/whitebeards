@@ -11,7 +11,7 @@ import { CatalogComponent } from "./components/catalog.component";
 import { RegisterComponent } from "./components/sign-in.component";
 import { SignInComponent } from "./components/sign-in.component";
 import { LoadingComponent } from "./components/loading-spinner.component";
-import { DataRepositoryService } from "./services/data-repository"
+import { DataRepositoryService } from "./services/data-repository.service"
 import { AccountMenuComponent } from "./components/account-menu";
 
 @NgModule({
