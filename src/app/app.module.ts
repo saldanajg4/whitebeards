@@ -6,7 +6,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms'
 
 import { appRoutes } from './routes'
 import { AppComponent }  from './components/app';
-import { NavBarComponent }  from './components/nav-bar';
+import { NavBarComponent }  from './components/nav-bar.component';
 import { CatalogComponent } from "./components/catalog.component";
 import { RegisterComponent } from "./components/sign-in.component";
 import { SignInComponent } from "./components/sign-in.component";
