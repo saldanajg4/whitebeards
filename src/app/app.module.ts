@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http'
 import { ReactiveFormsModule, FormsModule } from '@angular/forms'
 
 import { appRoutes } from './routes'
-import { AppComponent }  from './components/app';
+import { AppComponent }  from './components/app.component';
 import { NavBarComponent }  from './components/nav-bar.component';
 import { CatalogComponent } from "./components/catalog.component";
 import { RegisterComponent } from "./components/sign-in.component";
