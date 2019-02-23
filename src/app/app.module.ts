@@ -8,8 +8,8 @@ import { appRoutes } from './routes'
 import { AppComponent }  from './components/app';
 import { NavBarComponent }  from './components/nav-bar';
 import { CatalogComponent } from "./components/catalog.component";
-import { RegisterComponent } from "./components/sign-in";
-import { SignInComponent } from "./components/sign-in";
+import { RegisterComponent } from "./components/sign-in.component";
+import { SignInComponent } from "./components/sign-in.component";
 import { LoadingComponent } from "./components/loading-spinner";
 import { DataRepositoryService } from "./services/data-repository"
 import { AccountMenuComponent } from "./components/account-menu";
