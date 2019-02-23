@@ -12,7 +12,7 @@ import { RegisterComponent } from "./components/sign-in.component";
 import { SignInComponent } from "./components/sign-in.component";
 import { LoadingComponent } from "./components/loading-spinner.component";
 import { DataRepositoryService } from "./services/data-repository.service"
-import { AccountMenuComponent } from "./components/account-menu";
+import { AccountMenuComponent } from "./components/account-menu.component";
 
 @NgModule({
   imports:      [
