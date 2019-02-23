@@ -7,7 +7,7 @@ import { ReactiveFormsModule, FormsModule } from '@angular/forms'
 import { appRoutes } from './routes'
 import { AppComponent }  from './components/app';
 import { NavBarComponent }  from './components/nav-bar';
-import { CoursesComponent } from "./components/courses";
+import { CatalogComponent } from "./components/catalog.component";
 import { RegisterComponent } from "./components/sign-in";
 import { SignInComponent } from "./components/sign-in";
 import { LoadingComponent } from "./components/loading-spinner";
@@ -25,7 +25,7 @@ import { AccountMenuComponent } from "./components/account-menu";
   declarations: [
     AppComponent,
     NavBarComponent,
-    CoursesComponent,
+    CatalogComponent,
     RegisterComponent,
     SignInComponent,
     LoadingComponent,

@@ -1,10 +1,10 @@
 import { Routes } from '@angular/router';
-import { CoursesComponent } from './components/courses';
+import { CatalogComponent } from './components/catalog.component';
 import { RegisterComponent } from './components/sign-in';
 import { SignInComponent } from './components/sign-in';
 
-export const appRoutes : Routes = [
-  { path: 'catalog', component: CoursesComponent, },
+export const appRoutes: Routes = [
+  { path: 'catalog', component: CatalogComponent, },
   { path: 'users/register', component: RegisterComponent, },
   { path: 'users/sign-in', component: SignInComponent, },
 ];
