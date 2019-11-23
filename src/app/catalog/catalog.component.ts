@@ -50,11 +50,36 @@ export class CatalogComponent {
     return this.visibleClasses = this.classes.filter(c => c.course.courseNumber.startsWith(filter));
   }
 
-  showOnlyGeneralCourses(){
-    this.visibleClasses = this.classes.filter(c =>
+  /**
+   * do not include the return statement here, leave it in the function calling this method
+   */
+  showOnlyGeneralCourses() {
+     this.visibleClasses = this.classes.filter(c =>
       !c.course.courseNumber.startsWith('CH') &&
       !c.course.courseNumber.startsWith('PO') &&
-      !c.course.courseNumber.startsWith('SP'));
+      !c.course.courseNumber.startsWith('SP'));;
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  // showOnlyGeneralCourses(){
+  //   this.visibleClasses = this.classes.filter(c =>
+  //     !c.course.courseNumber.startsWith('CH') &&
+  //     !c.course.courseNumber.startsWith('PO') &&
+  //     !c.course.courseNumber.startsWith('SP'));
+  // }
 
 }

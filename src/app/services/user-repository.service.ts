@@ -25,8 +25,10 @@ export class UserRepositoryService {
       return Observable.throw('Already enrolled');
 
     // this.currentUser.classes.push(classId);
-
-    this.currentUser = Object.assign({}, this.currentUser, {classes: this.currentUser.classes.concat([classId])});
+    //Object.assign copies from source(s) into target for immutability
+    // this.currentUser = Object.assign({}, this.currentUser, {classes: this.currentUser.classes.concat([classId])});
+    this.currentUser = Object.assign({}, this.currentUser,{classes: 
+      this.currentUser.classes.concat([classId])});
 
     return Observable.empty().delay(1000);
   }
@@ -40,7 +42,8 @@ export class UserRepositoryService {
 
     // this.currentUser.classes = this.currentUser.classes.filter(c => c.classId !== classId);
 
-    this.currentUser = Object.assign({}, this.currentUser, {classes: this.currentUser.classes.filter(c => c.classId !== classId)});
+    this.currentUser = Object.assign({},this.currentUser, {classes: this.currentUser.classes.filter(course => course.classId !== classId)});
+    // this.currentUser = Object.assign({}, this.currentUser, {classes: this.currentUser.classes.filter(c => c.classId !== classId)});
 
 
     return Observable.empty().delay(1000);
@@ -64,7 +67,7 @@ export class UserRepositoryService {
   }
 }
 
-const USERS = [{
+const users = [{
   userId: 'e61aebed-dbc5-437a-b514-02b8380d8efc',
   firstName: 'Jose',
   lastName: 'Saldana',
