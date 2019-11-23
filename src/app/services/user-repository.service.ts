@@ -66,8 +66,8 @@ export class UserRepositoryService {
 
 const USERS = [{
   userId: 'e61aebed-dbc5-437a-b514-02b8380d8efc',
-  firstName: 'Jim',
-  lastName: 'Cooper',
+  firstName: 'Jose',
+  lastName: 'Saldana',
   email: 'someones-email@gmail.com',
   password: 'supersecret',
   classes: ['24ab7b14-f935-44c1-b91b-8598123ea54a']
