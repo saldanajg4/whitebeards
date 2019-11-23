@@ -52,6 +52,7 @@ export class CatalogComponent {
 
   /**
    * do not include the return statement here, leave it in the function calling this method
+   * now I will be working in moduleOrganizer branch to show new module organization
    */
   showOnlyGeneralCourses() {
      this.visibleClasses = this.classes.filter(c =>
